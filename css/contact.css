@@ -28,14 +28,12 @@ body {
   transform: translate(-20%, -50%);
   margin-top: 20px;
   margin-bottom: 20px;
-
 }
 
 #candid-text {
 	color: #A83A26;
 	font-size: 60px;
   font-style: italic;
-	
 }
 
 #about-text {

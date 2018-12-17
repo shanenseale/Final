@@ -111,8 +111,6 @@ a.menu_item:hover {
   justify-content: center;
  transform: translate(10%, 5%);
  z-index: 0;
-  /*margin-left: 1%;
-  margin-right: 1%;*/
 }
 
 .page_pic_pos{
