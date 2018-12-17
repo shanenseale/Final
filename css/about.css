@@ -1,0 +1,228 @@
+body {
+	height: 500vh;
+	background-color: #594D48;
+	margin: 0 auto;
+	padding: 0;
+}
+
+/*HEADER---*/
+
+.hero-image {
+  background-image: url("../images/home_background.png");
+  width: 100%;
+  height: 10%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: left;
+  position: absolute;
+  font-family: 'IBM Plex Sans', sans-serif;
+ /* font-size: 30px;*/
+  top: 50%;
+  left: 30%;
+  justify-content: center;
+  transform: translate(-20%, -50%);
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+
+#candid-text {
+	color: #A83A26;
+	font-size: 60px;
+	font-style: italic;
+
+}
+
+#about-text {
+	color: #DA9C85;
+	font-size: 80px;
+}
+
+/*NAV MENU---*/
+
+nav.menu {
+    position: absolute;
+    left: -200px;
+    width: 200px;
+    min-height: 250px;
+    background-color: #DA9C85;
+    transition: .3s all;
+    z-index: 1;
+
+
+}
+nav.menu > a {
+    display: block;
+    padding: 5px;
+    margin: 15px 0 0px 20px;
+    color: #A2310D;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'IBM Plex Mono', monospace;
+    font-style: italic;
+}
+.div {
+    width: 50%;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+
+.menu_show {
+    left: 0!important;
+}
+
+.top, a.menu_icon {
+    position: absolute;
+    color: #A2310D;
+    font-size: 40px;
+    padding-top: 95px;
+    padding-left: 5%;
+    transition: .25s ease;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.top, a.menu_icon:hover {
+    color: white;
+}
+
+a.menu_item{
+  transition: .25s ease;
+}
+
+a.menu_item:hover {
+  color: white;
+}
+
+/*MISSION BOX---*/
+
+.textBox{
+	text-align: center;
+	border:5px solid #59392E;
+	margin: 40px auto;
+	width: 65%;
+	/*padding: 10px;*/
+	background-color: rgba(218, 156, 133, 1);
+	padding-bottom: 5px;
+	position: relative;
+	transform: translate(0, 10%);
+}
+
+.mission-head {
+	font-size: 40px;
+	font-family: 'IBM Plex Mono', monospace;
+	text-align: left;
+	transform: translate(0, -10%);
+	/*text-decoration: underline;*/
+}
+
+.mission-text {
+	position: relative;
+	font-size: 25px;
+	font-family: 'IBM Plex Mono', monospace;
+}
+
+.name-text {
+	font-size: 30px;
+	font-family: 'IBM Plex Mono', monospace;
+	font-weight: bold;
+}
+
+
+/*SLIDESHOW---*/
+
+.picture {
+	width: 75%;
+	background-color: #BCC5CC;
+	box-shadow: 0 6px 6px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);*/
+	margin: auto;
+	margin-bottom: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.pic_container {
+	position: relative;
+	max-width: 75%;
+	max-height: 65vh;
+	min-width: 25%;
+}
+
+.mySlides {
+    display: none;
+    margin: auto;
+
+}
+
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 200vh;
+  width: auto;
+  padding: 16px;
+  color:black;
+  font-weight: bold;
+  font-size: 22px;
+  transition: 0.5s ease;
+  border-radius: 0 5px 5px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.dots {
+  text-align: center;
+  position: relative;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: #8C3525;
+}
+
+
+
+/* The dots/bullets/indicators */
+.dot {
+  position: relative;
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 5px;
+  background-color: #DA9C85;
+  border-radius: 50%;
+  display: inline-block;
+  top:10px;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color:  #A83A26;
+}
+
+/* Fade animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+font-family: 'IBM Plex Mono', monospace;
+font-family: 'IBM Plex Sans', sans-serif;
